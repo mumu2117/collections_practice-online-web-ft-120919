@@ -1,4 +1,4 @@
-ddef sort_array_asc(int_array)
+def sort_array_asc(int_array)
   int_array.sort{|a, b| a<=>b}
 end
 
